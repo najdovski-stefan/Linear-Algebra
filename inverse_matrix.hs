@@ -18,7 +18,7 @@ cofactor3x3 [[a,b,c],[d,e,f],[g,h,i]] =
     [  b*f - c*e, -(a*f - c*d),  a*e - b*d ] ]
 cofactor3x3 _ = error "Matrix must be 3x3"
 
-
+-- Step 3. Adjugate 
 
 main :: IO()
     putStrLn $ "Learning Inverse Matrix Operations" 
